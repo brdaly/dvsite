@@ -4164,3 +4164,89 @@ visibility: hidden;
   width: 25px;
   height: 25px;
 }
+
+
+/// Format for any square or image:
+<div id="#block-c519e5dd5a24f519aee4" class="slideRight">
+ <script> 
+ $(window).scroll(function () {
+ $('#block-c519e5dd5a24f519aee4').each(function () {
+ var topOfWindow = $(window).scrollTop(),
+ bottomOfWindow = topOfWindow + $(window).height();
+ 
+ var imagePos = $(this).offset().top;
+ 
+ if(imagePos <= bottomOfWindow-250 && imagePos >= topOfWindow+250){
+ $(this).addClass('slideRight');
+ }
+ //else{
+ //$(this).removeClass('slideRight');
+ //}
+ });
+ });
+ </script>
+ 
+ 
+ 
+ <div id="#block-0a80be499dcf4bb2c29d" class="slideUp">
+ <script> 
+ $(window).scroll(function () {
+ $('#block-0a80be499dcf4bb2c29d').each(function () {
+ var topOfWindow = $(window).scrollTop(),
+ bottomOfWindow = topOfWindow + $(window).height();
+ 
+ var imagePos = $(this).offset().top;
+ 
+ if(imagePos <= bottomOfWindow-250 && imagePos >= topOfWindow+250){
+ $(this).addClass('slideUp');
+ }
+ //else{
+ //$(this).removeClass('slideUp');
+ //}
+ });
+ });
+ </script>
+ 
+ 
+ <div id="#block-68053d97b70debaac2a2" class="slideUp">
+ <script> 
+ $(window).scroll(function () {
+ $('#block-68053d97b70debaac2a2').each(function () {
+ var topOfWindow = $(window).scrollTop(),
+ bottomOfWindow = topOfWindow + $(window).height();
+ 
+ var imagePos = $(this).offset().top;
+ 
+ if(imagePos <= bottomOfWindow-250 && imagePos >= topOfWindow+250){
+ $(this).addClass('slideUp');
+ }
+ //else{
+ //$(this).removeClass('slideUp');
+ //}
+ });
+ });
+ </script>
+  
+ 
+ <div id="#block-yui_3_17_2_1_1553610742372_11687" class="slideLeft">
+ <script> 
+ $(window).scroll(function () {
+ $('#block-yui_3_17_2_1_1553610742372_11687').each(function () {
+ var topOfWindow = $(window).scrollTop(),
+ bottomOfWindow = topOfWindow + $(window).height();
+ 
+ var imagePos = $(this).offset().top;
+ 
+ if(imagePos <= bottomOfWindow-250 && imagePos >= topOfWindow+250){
+ $(this).addClass('slideLeft');
+ }
+ //else{
+ //$(this).removeClass('slideLeft');
+ //}
+ });
+ });
+ </script>
+  
+ 
+ 
+
