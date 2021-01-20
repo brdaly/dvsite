@@ -1,0 +1,66 @@
+import time
+import random
+
+def main():
+    number = random.randint(5,15)
+    countdown(number)
+    print("Happy New Year!")
+    
+
+def countdown(n):
+    for i in range(n):
+        print(n - i)
+        time.sleep(1)
+main()
+
+### Maximum:
+
+def main():
+    x = int(input("x: "))
+    y = int(input("y: "))
+    z = int(input("z: "))
+    print("maximum is", z)
+
+def max(a,b):
+    if a>b:
+          return a 
+    else:
+          return b   
+main()
+
+### Scores:
+
+def main():
+    score1 = int(input("Score 1: "))
+    score2 = int(input("Score 2: "))
+    score3 = int(input("Score 3: "))
+   
+    print_score(score1)
+    print_score(score2)
+    print_score(score3)
+
+def print_score(n):
+    for i in range(n):
+        print("#", end="")
+    print()
+    
+main()
+
+
+
+### multiplication:
+
+def main():
+    for i in range(10):
+        for j in range(10):
+            multiply(i,j)
+
+def multiply(x,y):
+    product = x * y
+    print(x, "*", y, "=", product)
+    
+main()
+
+
+### multipliation:
+
