@@ -1,0 +1,38 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NRFFX3F');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="google-site-verification" content="dWM37_S9rj1f4VCHpXtqHJ0RG_iN0-cGNeXFB7b0x_A" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128682839-1"></script>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://brendan-daly-wp2q.squarespace.com/s/animations-2.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2MVP8V5H9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H2MVP8V5H9');
+</script>
+
+<script type="text/javascript" src="https://calendly.com/assets/external/calendly-squarespace.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128682839-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128682839-1');
+</script>
