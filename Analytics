@@ -1,3 +1,5 @@
+######### HEADER ###########
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -35,4 +37,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('js', new Date());
 
   gtag('config', 'UA-128682839-1');
+</script>
+
+
+
+######### FOOTER ###########
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRFFX3F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script>
+  var disable_map_scroll = function() {
+    Y.all(".page-map").each(function(el) {
+      if(el._node.__map) {
+        el._node.__map.setOptions({'scrollwheel': false, 'disableDoubleClickZoom': true, 'draggable': false});
+      }
+    });
+  };
+
+  Y.on("domready", function() {
+    // Try a few times to account for Google Maps initialization delay.
+    setTimeout(disable_map_scroll, 50);
+    setTimeout(disable_map_scroll, 500);
+    setTimeout(disable_map_scroll, 1000);
+  });
 </script>
