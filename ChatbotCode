@@ -1,0 +1,19 @@
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https://storage.googleapis.com/cloudprod-apiai/75af45e6-fb40-4286-b933-8e2a12db2796_l.png"
+  intent="WELCOME"
+  chat-title="Daly Ventures Chatbot"
+  agent-id="5c7b4e0b-4943-43ef-98f7-e8295fbe7e23"
+  language-code="en"
+></df-messenger>
+
+<style>
+  df-messenger {
+   --df-messenger-bot-message: #00331f;
+   --df-messenger-button-titlebar-color: #00331f;
+   --df-messenger-chat-background-color: #222222;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #00331f;
+   --df-messenger-user-message: #4c4c4c;
+  }
+</style>
